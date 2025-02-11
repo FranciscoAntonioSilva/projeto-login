@@ -34,13 +34,39 @@
     }
 
     div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div#formulario {
-        float: right;
+        float: left;
         width: 50%;
+    }
+
+    div#formulario h1 {
+        font-size: 2em;
+    }
+
+    div#formulario p {
+        font-size: 1.2em;
+    }
+
+    form .campo {
+        width: 70%;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    form > input[type=submit] {
+        width: 70%;
+        margin: auto;
+    }
+
+    form .botao {
+        width: 70%;
+        margin: auto;
+        margin-top: 5px;
     }
 }
